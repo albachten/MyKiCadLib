@@ -1,0 +1,132 @@
+(footprint "Antenna915MHzSimpleCoil"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "4269-2")
+	(tags "Antenna")
+	(property "Reference" "ANT**"
+		(at 0.45 -1.9 0)
+		(layer "F.SilkS")
+		(uuid "b96918ce-650b-4a12-9e82-3d9bf87e9237")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Antenna915MHzSimpleCoil"
+		(at 1.125 3.8 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "320d700f-5009-4cb9-a594-2ea2d6165d03")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.175)
+				(bold yes)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2bfc8be2-8ba4-4c9a-9afc-c8bbad232953")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6b53dc8-b492-496a-905b-392c51dbd49f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "475906c9-2b16-491b-a212-f66fc773bdc1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3 -1)
+		(end 0 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Cu")
+		(uuid "c4a3ed17-69e4-44b7-8297-876b6c9fdc6f")
+	)
+	(fp_rect
+		(start -3 -1)
+		(end 0 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Mask")
+		(uuid "dcbf2c33-9111-44e8-8ad4-44a24c06d182")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.3 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "B.CrtYd")
+		(uuid "3ada7700-8d95-4f60-9a26-1c8831b44c8d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.3 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "fa26f574-0be3-4831-b27a-c14ef129e93c")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6ea062ce-87f0-4c59-bab1-53d7c5b50284")
+	)
+	(model "${MYLIB}/MyLib.3dshapes/Antenna915MHzSimpleCoil.wrl"
+		(offset
+			(xyz 0 0 -2.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
