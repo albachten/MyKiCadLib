@@ -1657,7 +1657,145 @@
 			)
 		)
 	)
-	(symbol "MiniPyroClip"
+	(symbol "OLED_0.9in_i2c_weewooday"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DISP1"
+			(at -8.89 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OLED_0.9in_i2c"
+			(at -6.35 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyLib:OLED_0.9in_i2c_weewooday"
+			(at 5.08 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "OLED_0.9in_i2c_weewooday_1_1"
+			(rectangle
+				(start -10.16 7.62)
+				(end 8.89 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin power_in line
+				(at -12.7 -2.54 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 5.08 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 2.54 0)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 0 0)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "PyroClipBlack"
 		(pin_numbers hide)
 		(pin_names
 			(offset 1.016) hide)
@@ -1673,7 +1811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "MiniPyroClip"
+		(property "Value" "PyroClipBlack"
 			(at 0 4.445 0)
 			(effects
 				(font
@@ -1681,7 +1819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MyLib:MiniPyroClip"
+		(property "Footprint" "MyLib:PyroClipBlack"
 			(at 0 -16.51 0)
 			(effects
 				(font
@@ -1735,20 +1873,130 @@
 				(hide yes)
 			)
 		)
-		(symbol "MiniPyroClip_0_1"
+		(symbol "PyroClipBlack_1_1"
 			(circle
 				(center 0 1.27)
 				(radius 1.27)
 				(stroke
 					(width 1.27)
 					(type default)
+					(color 0 0 0 1)
 				)
 				(fill
 					(type none)
 				)
 			)
+			(pin input line
+				(at 0 -2.54 90)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
-		(symbol "MiniPyroClip_1_1"
+	)
+	(symbol "PyroClipRed"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "CLIP"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PyroClipRed"
+			(at 0 4.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MyLib:PyroClipRed"
+			(at 0 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://rogergeorge.com/products/pyro-clips"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole for mini PyroClip"
+			(at 2.54 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet2" "https://www.pyromate.com/quick-clip.htm"
+			(at 1.27 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "mounting hole"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "MountingHole*Pad* *PyroClip*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PyroClipRed_1_1"
+			(circle
+				(center 0 1.27)
+				(radius 1.27)
+				(stroke
+					(width 1.27)
+					(type default)
+					(color 194 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin input line
 				(at 0 -2.54 90)
 				(length 2.54)

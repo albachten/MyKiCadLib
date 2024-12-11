@@ -1,4 +1,4 @@
-(footprint "MiniPyroClip"
+(footprint "PyroClipRed"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "MiniPyroClip"
+	(property "Value" "PyroClipRed"
 		(at 0 -4.7 0)
 		(layer "F.SilkS")
 		(uuid "80ca78b8-b02b-42ac-a54f-babb0ad8a96c")
