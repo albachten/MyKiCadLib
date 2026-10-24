@@ -1,0 +1,168 @@
+(footprint "TerminalBlock_Amphenol_VI0321520000G_1x03_P5.08mm_Horizontal"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Amphenol Anytek VI0321520000G, 3-pole screw terminal block, 5.08 mm pitch, 180 deg wire inlet, drawing 8VI0103 rev G. Wire entry on the +Y side. 3D model is a Phoenix MKDS-1,5 stand-in")
+	(tags "terminal block screw Amphenol Anytek VI 5.08mm VI0321520000G")
+	(property "Reference" "REF**"
+		(at 5.08 -5.6 0)
+		(layer "F.SilkS")
+		(uuid "21e7b79c-0412-4431-a5e4-ae4018248668")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TerminalBlock_Amphenol_VI0321520000G_1x03_P5.08mm_Horizontal"
+		(at 5.08 5.6 0)
+		(layer "F.Fab")
+		(uuid "644a92c2-049a-4b5e-9cf8-42a3ca69b926")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "193c97ff-ad99-477f-b3c5-608b950ad76c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8262e891-18e0-4717-82fe-a3a2be91a664")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -3.14 -4.5)
+		(end 12.7 4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "817cae23-0809-429d-827d-900c54adec0f")
+	)
+	(fp_line
+		(start -3.14 3.5)
+		(end 12.7 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2e270a11-00e6-49cc-9a3a-9458ce6642cf")
+	)
+	(fp_rect
+		(start -3.26 -4.62)
+		(end 12.82 4.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b310944c-de38-4470-8cd9-8edd271fa593")
+	)
+	(fp_line
+		(start -3.26 3.5)
+		(end 12.82 3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f1f6e0b-3620-46c6-a0ce-bdf709a90b11")
+	)
+	(fp_poly
+		(pts
+			(xy -3.8 -0.6) (xy -3.8 0.6) (xy -3.3 0)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "9a798a09-ad39-4101-a2b3-5c8d6037248c")
+	)
+	(fp_rect
+		(start -3.99 -4.75)
+		(end 12.95 4.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0c4786cc-b3a5-42d2-998a-d206f4048cd1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.08 2.2 0)
+		(layer "F.Fab")
+		(uuid "7e420f42-b162-43ee-bdaf-d6fbba04daee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 3 3)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a5996af0-5fe2-40b8-976b-be7cecc86788")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 3 3)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0c82b18d-a152-400f-b20f-d18f6765219b")
+	)
+	(pad "3" thru_hole circle
+		(at 10.16 0)
+		(size 3 3)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7335493a-273a-4a03-a88a-f69f03e1c5b5")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal.step"
+		(offset
+			(xyz 0 -0.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
