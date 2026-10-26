@@ -255,6 +255,50 @@
 			)
 		)
 	)
+	(fp_rect
+		(start 1.9 -2.1)
+		(end 3.4 0)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "a93658bd-cf67-4a9d-aad0-3f87da2acfa9")
+	)
+	(fp_rect
+		(start 2.85 0.3)
+		(end 4.25 2.4)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "6ad2d109-4e74-4ed9-aa55-8de822c76bde")
+	)
+	(fp_rect
+		(start -3.4 -2.1)
+		(end -1.9 0)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "955563a2-2169-49bd-9951-34f440758a8a")
+	)
+	(fp_rect
+		(start -4.25 0.3)
+		(end -2.85 2.4)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "d1644b36-24e1-4877-9dd3-abb2428adb13")
+	)
 	(pad "1" smd rect
 		(at -1.3 -1.4)
 		(size 0.4 1.35)
@@ -338,7 +382,7 @@
 	(embedded_fonts no)
 	(model "${MYLIB}/MyLib.3dshapes/10118194_USB_Micro.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 -1.3 0)
 		)
 		(scale
 			(xyz 1 1 1)
