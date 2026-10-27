@@ -1,0 +1,268 @@
+(footprint "EVQP7C01P"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Panasonic EVQ-P7C01P side-operational light touch switch, 3.5 x 2.9 mm, 2.2 N, with locating bosses. From SamacSys (EVQ-P7C01P-4); pads renamed A1/B1 -> 1 (NO), A2/B2 -> 2 (COM). Knob faces +y.")
+	(tags "switch tactile side push right angle EVQP7C01P")
+	(property "Reference" "SW**"
+		(at 0 -3.4 0)
+		(layer "F.SilkS")
+		(uuid "1a567689-2dc0-4c24-b0ce-84e2c4b5cb11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "EVQP7C01P"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "770dd3fa-41c5-4861-b66a-ad36bc8cf4d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d18cb58a-7bc0-4f26-80d6-097a5d61e996")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bb3a3e9-b1e8-4942-9a84-efc4825f58e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.1 -1.05)
+		(end -3.1 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f6b856f-51d1-4b4b-8778-3437dd877c21")
+	)
+	(fp_line
+		(start -3 -1.05)
+		(end -3 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da330cb9-460b-4390-9bb4-f821f8d439be")
+	)
+	(fp_arc
+		(start -3.1 -1.05)
+		(mid -3.05 -1.1)
+		(end -3 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ac523cb-8257-400c-8d1a-cc2b55021716")
+	)
+	(fp_arc
+		(start -3 -1.05)
+		(mid -3.05 -1)
+		(end -3.1 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ff08f4f-0107-4680-95d2-7d0eda6c6f3e")
+	)
+	(fp_line
+		(start -3.5 -2.775)
+		(end 3.5 -2.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0a92c826-01f3-4a01-b8d2-dff3410aa28f")
+	)
+	(fp_line
+		(start -3.5 2.775)
+		(end -3.5 -2.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2e742fa6-9640-45be-ab6f-dea051574d82")
+	)
+	(fp_line
+		(start 3.5 -2.775)
+		(end 3.5 2.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "39cde721-e68d-4ab1-a652-bb6498a2bdac")
+	)
+	(fp_line
+		(start 3.5 2.775)
+		(end -3.5 2.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "577e77d1-78dd-424a-a661-d3a15038962f")
+	)
+	(fp_line
+		(start -1.75 -1.775)
+		(end 1.75 -1.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fb183239-54b3-417d-b021-566a90335dda")
+	)
+	(fp_line
+		(start -1.75 1.125)
+		(end -1.75 -1.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "577bc05e-9921-4f3d-9e71-a8125902ef30")
+	)
+	(fp_line
+		(start -0.85 1.125)
+		(end -0.85 1.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f2fd3244-d084-4e40-b549-37fbc4e86a2f")
+	)
+	(fp_line
+		(start -0.85 1.775)
+		(end 0.85 1.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "033d48bc-510b-4113-8caf-1ddd7c7ef090")
+	)
+	(fp_line
+		(start 0.85 1.775)
+		(end 0.85 1.125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "94c41995-5e90-41cd-b27a-e07f92570227")
+	)
+	(fp_line
+		(start 1.75 -1.775)
+		(end 1.75 1.125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b612247e-54e1-4efd-8f97-9c25ec8ee900")
+	)
+	(fp_line
+		(start 1.75 1.125)
+		(end -1.75 1.125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74f13398-ec43-4dee-b796-b0d29f01d841")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "81330d03-08da-426e-b914-2d872c07c5ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -1.225)
+		(size 0.7 0.7)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "776861c9-4864-4fd6-aa9a-064f24cc9509")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0.575)
+		(size 0.7 0.7)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "6aceba99-c309-43b5-8012-77cc3e47c282")
+	)
+	(pad "1" smd rect
+		(at -1.8 -1.05 90)
+		(size 1.05 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "984da381-01e7-4e83-8ea7-8f6a26725b0d")
+	)
+	(pad "1" smd rect
+		(at 1.8 -1.05 90)
+		(size 1.05 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9a6ddc73-03a9-490d-9109-4735e8449045")
+	)
+	(pad "2" smd rect
+		(at -1.8 0.4 90)
+		(size 1.05 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1315ed9e-ceff-4b18-b3ff-de61f56dd2af")
+	)
+	(pad "2" smd rect
+		(at 1.8 0.4 90)
+		(size 1.05 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b6b68cbe-064c-4aaa-9dea-2d767d336946")
+	)
+	(embedded_fonts no)
+	(model "${MYLIB}/MyLib.3dshapes/EVQ-P7C01P.stp"
+		(offset
+			(xyz 0 0.3300000082 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
