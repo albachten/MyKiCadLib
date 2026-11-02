@@ -1,0 +1,207 @@
+(footprint "Bourns_TC33X_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Bourns TC33X 3 mm single-turn SMD trimmer, top adjust. Land pattern and 3D model from SamacSys (TC33X-2-203E). https://www.bourns.com/docs/Product-Datasheets/TC33.pdf")
+	(tags "trimmer potentiometer Bourns TC33X")
+	(property "Reference" "REF**"
+		(at 0 -3.4 0)
+		(layer "F.SilkS")
+		(uuid "aea313e2-6b69-426a-b881-8371e622dd0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Bourns_TC33X_Vertical"
+		(at 0 3.4 0)
+		(layer "F.Fab")
+		(uuid "f4f9737f-ce0c-4e2e-8a30-59d395b21aab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3dc7acd5-d981-4bcc-b8a9-e17ffc27d84c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40c76e55-9218-4b5c-8141-237dabfe401e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.8 -1.9)
+		(end 1.8 -1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec6ef8bc-787e-4bdc-8642-0821eb58986a")
+	)
+	(fp_line
+		(start 1.8 -1.9)
+		(end 1.8 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f0dd4e9b-f424-4e47-9bf1-97d016d4aee6")
+	)
+	(fp_line
+		(start 1.8 1.9)
+		(end -1.8 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c1be3624-599a-417e-9117-2b60164f8384")
+	)
+	(fp_line
+		(start -1.8 1.9)
+		(end -1.8 -1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f5fcef31-c0cd-49b6-ade2-b00c62060426")
+	)
+	(fp_line
+		(start -1.91 -1.9)
+		(end -1.91 1.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c196b7f-9e80-4fc7-a25a-ca25706d1a05")
+	)
+	(fp_line
+		(start 1.91 -1.9)
+		(end 1.91 1.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca9b1adc-b0f5-4e8c-8a95-e96bd8f20dbf")
+	)
+	(fp_circle
+		(center -2.35 1.7)
+		(end -2.25 1.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "4214efdc-9f45-4ad3-be18-79fd5c573878")
+	)
+	(fp_line
+		(start -2.15 -2.6)
+		(end 2.15 -2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3b81efad-7005-4c3a-984f-253e50afa1e1")
+	)
+	(fp_line
+		(start 2.15 -2.6)
+		(end 2.15 2.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca0a099f-4e9a-4931-89a2-083b374150cb")
+	)
+	(fp_line
+		(start 2.15 2.55)
+		(end -2.15 2.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "40035bb4-88fa-4f6a-94ff-ea230b41a3da")
+	)
+	(fp_line
+		(start -2.15 2.55)
+		(end -2.15 -2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9a3b34db-a07b-474d-9706-11649168820f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e4febd12-aceb-4cb3-b866-3e4fc783472c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 1.7)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6334ec6d-e592-4bfc-8497-97d7ab5009a8")
+	)
+	(pad "2" smd rect
+		(at 0 -1.55)
+		(size 1.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5ebac91d-e559-4a20-98bd-dd7814ca3952")
+	)
+	(pad "3" smd rect
+		(at 1 1.7)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "df58bf04-c88d-40a8-8eb6-0552e12c7124")
+	)
+	(embedded_fonts no)
+	(model "${MYLIB}/MyLib.3dshapes/TC33X-2-203E.stp"
+		(offset
+			(xyz 0 0 0.28)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
